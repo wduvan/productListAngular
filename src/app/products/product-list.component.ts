@@ -1,4 +1,5 @@
 import {Component} from '@angular/core';
+import {IProducts} from './products';
 
 @Component({
   selector: 'app-product-list',
@@ -10,7 +11,7 @@ export class ProductListComponent {
   imageMargin: number = 2;
   showImage: boolean = false;
   listFilter: string = 'cart';
-  products: any[] = [
+  products: IProducts[] = [
     {
       productId: 1,
       productName: 'Leaf Rake',
@@ -63,7 +64,7 @@ export class ProductListComponent {
     }
   ];
 
-  toggleImage(): void{
+  toggleImage(): void {
     this.showImage = !this.showImage;
   }
 }
