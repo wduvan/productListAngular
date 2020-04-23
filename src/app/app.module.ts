@@ -7,12 +7,14 @@ import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
 import {WelcomeComponent} from './home/home.component';
 import {ProductListComponent} from './products/product-list.component';
+import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     ProductListComponent,
+    ConvertToSpacesPipe
   ],
   imports: [
     BrowserModule,
