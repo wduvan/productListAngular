@@ -6,12 +6,23 @@ import {IProducts} from './products';
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
-export class ProductListComponent implements OnInit{
+export class ProductListComponent implements OnInit {
   pageTitle = 'Product List!';
   imageWidth: number = 50;
   imageMargin: number = 2;
   showImage: boolean = false;
-  listFilter: string = 'cart';
+  listFilter: string;
+
+  get objListFilter(): string {
+    return this.listFilter;
+  }
+
+  set objListFilter(value: string) {
+    this.listFilter = value;
+    this.filteredProducts = this.objListFilter ? this.performFilter(this.objListFilter) : this.products;
+  }
+
+  filteredProducts: IProducts[];
   products: IProducts[] = [
     {
       productId: 1,
@@ -64,6 +75,17 @@ export class ProductListComponent implements OnInit{
       imageUrl: 'assets/images/xbox-controller.png'
     }
   ];
+
+  constructor() {
+    this.filteredProducts = this.products;
+    this.objListFilter = 'amm';
+  }
+
+  performFilter(filterBy: string): IProducts[] {
+    filterBy = filterBy.toLocaleLowerCase();
+    return this.products.filter((product: IProducts) =>
+      product.productName.toLocaleLowerCase().indexOf(filterBy) !== -1);
+  }
 
   toggleImage(): void {
     this.showImage = !this.showImage;
