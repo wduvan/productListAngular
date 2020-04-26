@@ -8,12 +8,14 @@ import {environment} from '../environments/environment';
 import {WelcomeComponent} from './home/home.component';
 import {ProductListComponent} from './products/product-list.component';
 import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
+import {StarComponent} from './shared/star/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     ProductListComponent,
+    StarComponent,
     ConvertToSpacesPipe
   ],
   imports: [
