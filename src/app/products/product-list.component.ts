@@ -17,6 +17,10 @@ export class ProductListComponent implements OnInit {
     return this.listFilter;
   }
 
+  onRatingClicked(message: string): void {
+    this.pageTitle = 'Product List ' + message;
+  }
+
   set objListFilter(value: string) {
     this.listFilter = value;
     this.filteredProducts = this.objListFilter ? this.performFilter(this.objListFilter) : this.products;
