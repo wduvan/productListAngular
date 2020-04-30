@@ -9,6 +9,7 @@ import {WelcomeComponent} from './home/home.component';
 import {ProductListComponent} from './products/product-list.component';
 import {ConvertToSpacesPipe} from './shared/convert-to-spaces.pipe';
 import {StarComponent} from './shared/star/star.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {StarComponent} from './shared/star/star.component';
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
