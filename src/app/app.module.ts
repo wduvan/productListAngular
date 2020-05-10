@@ -19,7 +19,6 @@ import {ProductModule} from './products/product.module';
   imports: [
     BrowserModule,
     ServiceWorkerModule.register('ngsw-worker.js', {enabled: environment.production}),
-    FormsModule,
     HttpClientModule,
     RouterModule.forRoot([
       {path: 'welcome', component: WelcomeComponent},
