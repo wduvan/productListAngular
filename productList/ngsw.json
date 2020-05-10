@@ -1,0 +1,104 @@
+{
+  "configVersion": 1,
+  "timestamp": 1589076315659,
+  "index": "productListAngular/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "productListAngular/favicon.ico",
+        "productListAngular/index.html",
+        "productListAngular/main-es2015.ee81e6df2cc247b1f473.js",
+        "productListAngular/main-es5.ee81e6df2cc247b1f473.js",
+        "productListAngular/manifest.webmanifest",
+        "productListAngular/polyfills-es2015.690002c25ea8557bb4b0.js",
+        "productListAngular/polyfills-es5.9e286f6d9247438cbb02.js",
+        "productListAngular/runtime-es2015.1eba213af0b233498d9d.js",
+        "productListAngular/runtime-es5.1eba213af0b233498d9d.js",
+        "productListAngular/styles.dc13ed27a3305ebd4bf5.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "productListAngular/assets/icons/icon-128x128.png",
+        "productListAngular/assets/icons/icon-144x144.png",
+        "productListAngular/assets/icons/icon-152x152.png",
+        "productListAngular/assets/icons/icon-192x192.png",
+        "productListAngular/assets/icons/icon-384x384.png",
+        "productListAngular/assets/icons/icon-512x512.png",
+        "productListAngular/assets/icons/icon-72x72.png",
+        "productListAngular/assets/icons/icon-96x96.png",
+        "productListAngular/assets/images/Logo_Plano_Epico.png",
+        "productListAngular/assets/images/garden_cart.png",
+        "productListAngular/assets/images/hammer.png",
+        "productListAngular/assets/images/leaf_rake.png",
+        "productListAngular/assets/images/logo.jpg",
+        "productListAngular/assets/images/saw.png",
+        "productListAngular/assets/images/xbox-controller.png",
+        "productListAngular/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+        "productListAngular/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+        "productListAngular/fontawesome-webfont.8b43027f47b20503057d.eot",
+        "productListAngular/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+        "productListAngular/fontawesome-webfont.f691f37e57f04c152e23.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "productListAngular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "productListAngular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "productListAngular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "productListAngular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "productListAngular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "productListAngular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "productListAngular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "productListAngular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "productListAngular/assets/images/Logo_Plano_Epico.png": "1a2ff09ec936f7e41246c2982ade0a569eac2f08",
+    "productListAngular/assets/images/garden_cart.png": "27cebcdd77aa5c6e77aa9e4dfa6ab5cff6711e26",
+    "productListAngular/assets/images/hammer.png": "ed48ca251256afe531e01d394520fc9d3fa5aa78",
+    "productListAngular/assets/images/leaf_rake.png": "adeaccc86a554456a3c273a52a3c8d8091d1bd49",
+    "productListAngular/assets/images/logo.jpg": "3bb3095d02dc37cc486dcba305985689df3fc40e",
+    "productListAngular/assets/images/saw.png": "0209beaaa08eba7907971c34eceb4a7ff3588da2",
+    "productListAngular/assets/images/xbox-controller.png": "dd47287d65fdae7f21888024fc3c423007687c6a",
+    "productListAngular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "productListAngular/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "productListAngular/fontawesome-webfont.20fd1704ea223900efa9.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "productListAngular/fontawesome-webfont.8b43027f47b20503057d.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "productListAngular/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "productListAngular/fontawesome-webfont.f691f37e57f04c152e23.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "productListAngular/index.html": "416c50afc40c026683c2e37389c860b814227be5",
+    "productListAngular/main-es2015.ee81e6df2cc247b1f473.js": "6a128b116fd2fa23e10b3b34f5945db1c8d77fdf",
+    "productListAngular/main-es5.ee81e6df2cc247b1f473.js": "78f8da4ea4ec06944cf95213bb1fc4af84338660",
+    "productListAngular/manifest.webmanifest": "98ad85ec4c66ac38b5e4f28b196021d4d967b4ab",
+    "productListAngular/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "productListAngular/polyfills-es5.9e286f6d9247438cbb02.js": "e51a1de4f016cd689dbdbef51043dec9518c4111",
+    "productListAngular/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "productListAngular/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "productListAngular/styles.dc13ed27a3305ebd4bf5.css": "8a416779657b51cec473bf8fc74fc46a11b73e36"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
