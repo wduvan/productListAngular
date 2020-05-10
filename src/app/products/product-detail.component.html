@@ -1,9 +1,47 @@
 <div class="card">
-  <div class="card-header bg-dark">
+  <div class="card-header bg-dark  text-white">
     {{ pageTitle + ':' + product.productName}}
   </div>
-  <div class="bg-dark">
-    Test card
+  <div class="card-body bg-dark">
+    <div class='row'>
+      <div class='col-md-8'>
+        <div class='row'>
+          <div class='col-md-4 text-white'>Name:</div>
+          <div class='col-md-8 text-white'>{{product.productName}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 text-white'>Code:</div>
+          <div class='col-md-8 text-white'>{{product.productCode | lowercase | convertToSpaces: '-'}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 text-white'>Description:</div>
+          <div class='col-md-8 text-white'>{{product.description}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 text-white'>Availability:</div>
+          <div class='col-md-8 text-white'>{{product.releaseDate}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 text-white'>Price:</div>
+          <div class='col-md-8 text-white'>{{product.price|currency:'USD':'symbol'}}</div>
+        </div>
+        <div class='row'>
+          <div class='col-md-4 text-white'>5 Star Rating:</div>
+          <div class='col-md-8  text-white'>
+            <pm-star [rating]='product.starRating'>
+            </pm-star>
+          </div>
+        </div>
+      </div>
+
+      <div class='col-md-4'>
+        <img class='center-block img-responsive'
+             [style.width.px]='200'
+             [style.margin.px]='2'
+             [src]='product.imageUrl'
+             [title]='product.productName'>
+      </div>
+    </div>
   </div>
   <div class="card-footer bg-dark">
     <button class="btn btn-outline-secondary"
